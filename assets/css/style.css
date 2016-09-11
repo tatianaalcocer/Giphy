@@ -1,0 +1,13 @@
+* {
+	position: relative;
+	box-sizing: border-box;
+}
+
+p {
+	
+}
+
+.animal {
+	margin-left: 0;
+	margin-right: 10px;
+}
