@@ -3,11 +3,30 @@
 	box-sizing: border-box;
 }
 
-p {
-	
+body {
+	background-color: #ddd;
 }
+
 
 .animal {
 	margin-left: 0;
 	margin-right: 10px;
+}
+
+.gif-main {
+	column-count: 5;
+	font-family: 'Oswald', sans-serif;
+	line-height: 2;
+
+}
+
+.animal-tile {
+	-webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.jumbotron {
+	font-family: 'Oswald', sans-serif;
+	line-height: 2;
 }
